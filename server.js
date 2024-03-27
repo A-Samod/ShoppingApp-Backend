@@ -9,11 +9,6 @@ app.use(cors());
 
 require("dotenv").config();
 
-//swagger
-const swaggerDoc = require("./swagger-docs/info");
-const swaggerUi = require("swagger-ui-express");
-
-app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerDoc));
 app.use("/user", router);
 
 // Connect to MongoDB
