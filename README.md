@@ -4,6 +4,6 @@ This repository contains the backend source code for the Shopping App developed 
 
  ShoppingApp repository:
    ```bash
-   git clone [https://github.com/A-Samod/ShoppingApp]
+   git clone https://github.com/A-Samod/ShoppingApp
 
 
